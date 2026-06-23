@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Paws Across Borders to find dog rescue organizations and volunteer opportunities for your travels." />
+  <title>Contact | Paws Across Borders</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">🐾</span><span>Paws Across Borders</span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation" />
+      <label class="nav-toggle-label" for="nav-toggle"><span></span></label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section-pad">
+      <div class="container narrow">
+        <p class="eyebrow">Start a match</p>
+        <h1>Tell us where you are going and how you would like to help.</h1>
+        <p>We will recommend rescue organizations, volunteer openings, and preparation steps that fit your route.</p>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container contact-grid">
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          <label for="destination">Destination or route</label>
+          <input id="destination" name="destination" type="text" placeholder="e.g., Lisbon, Athens, Bangkok" />
+          <label for="message">How would you like to help?</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell us your dates, skills, and comfort level with dogs."></textarea>
+          <button class="button primary" type="submit">Send inquiry</button>
+        </form>
+        <aside class="contact-card">
+          <h2>Other ways to connect</h2>
+          <p>Email our volunteer matching team or follow along for featured rescue needs and responsible travel tips.</p>
+          <div class="contact-method"><strong>Email</strong><span>hello@pawsacrossborders.org</span></div>
+          <div class="contact-method"><strong>Instagram</strong><span>@pawsacrossborders</span></div>
+          <div class="contact-method"><strong>Response time</strong><span>Usually within 2 business days</span></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>Paws Across Borders</strong><p>Connecting compassionate travelers with dog rescue communities worldwide.</p></div>
+      <div><span>hello@pawsacrossborders.org</span><span>Travel kindly · Volunteer responsibly</span></div>
+    </div>
+  </footer>
+</body>
+</html>
